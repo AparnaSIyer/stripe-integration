@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'stripe-integration';
+  constructor(){
+    console.log("hello")
+  }
 }
